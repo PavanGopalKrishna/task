@@ -1,0 +1,14 @@
+.search-icon {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    z-index: 9999; /*this will keep the icon appearing all time, even when on input::focus*/
+  }
+
+
+  .sideBar{
+    height:30px;
+          display:flex;
+          flex-wrap:wrap;
+          justify-content:space-between;
+  }
